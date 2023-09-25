@@ -1,3 +1,5 @@
+//Реалізуйте функцію removeElement(array, item), щоб видалити елемент item з масиву array.
+
 function removeElement(array, item) {
 	const index = array.indexOf(item);
 	if (index !== -1) {
